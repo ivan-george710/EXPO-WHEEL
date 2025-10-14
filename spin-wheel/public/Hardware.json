@@ -1,0 +1,105 @@
+{
+  "topic": "Hardware",
+  "questions": [
+    {
+      "question": "What is the main function of a CPU?",
+      "options": ["To execute instructions and process data", "To store long-term data", "To display images on screen", "To provide network access"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does RAM stand for?",
+      "options": ["Readily Accessible Memory", "Random Access Memory", "Rapid Access Module", "Runtime Allocation Module"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which component is considered non-volatile storage?",
+      "options": ["RAM", "CPU cache", "SSD/HDD", "GPU VRAM"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What does a GPU primarily accelerate?",
+      "options": ["Database queries", "Graphics and parallel computations", "Network routing", "Audio mixing"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which port is commonly used for monitors?",
+      "options": ["HDMI/DisplayPort", "RJ45", "3.5mm jack", "SATA"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which unit measures a power supply’s capacity?",
+      "options": ["Volts", "Amperes", "Watts", "Ohms"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which device converts AC to stable DC for PC components?",
+      "options": ["UPS", "Power Supply Unit (PSU)", "Inverter fan", "Motherboard regulator only"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which storage is typically fastest for general use?",
+      "options": ["HDD", "SATA SSD", "NVMe SSD", "Optical drive"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What does BIOS/UEFI do?",
+      "options": ["Runs the OS user interface", "Initializes hardware and boots the system", "Compiles applications", "Manages cloud backups"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which connector powers a 3.5-inch HDD?",
+      "options": ["Molex/SATA power", "USB-A", "RJ11", "Thunderbolt"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Thermal paste is applied between:",
+      "options": ["RAM and slots", "CPU and heatsink", "SSD and motherboard", "PSU and case"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is a microcontroller?",
+      "options": ["A full PC with separate CPU and RAM", "A single chip with CPU, memory, and I/O for embedded control", "A graphics-only processor", "A network switch chip"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which protocol is most common for sensors on hobby boards?",
+      "options": ["I2C", "PCIe", "Thunderbolt", "DSL"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does SPI stand for?",
+      "options": ["Serial Peripheral Interface", "System Port Interchange", "Simple Packet Internet", "Synchronous Parallel I/O"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Debouncing a mechanical switch fixes:",
+      "options": ["Voltage regulation", "Multiple noisy transitions when pressed", "Overheating", "Low bandwidth"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which item protects circuits from overcurrent?",
+      "options": ["Heatsink", "Fuse", "Inductor", "Crystal oscillator"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is the typical logic voltage for many Arduino boards?",
+      "options": ["12V", "9V", "5V (sometimes 3.3V)", "1.2V"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which tool measures voltage, current, and resistance?",
+      "options": ["Spectrum analyzer", "Multimeter", "Logic analyzer", "Oscillator"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which bus connects CPU to high-speed devices on PCs?",
+      "options": ["PCI Express (PCIe)", "I2C", "RS-232", "CAN"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which storage has moving parts?",
+      "options": ["NVMe SSD", "SATA SSD", "HDD", "eMMC"],
+      "answerIndex": 2
+    }
+  ]
+}

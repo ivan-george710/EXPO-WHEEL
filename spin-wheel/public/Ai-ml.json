@@ -1,0 +1,305 @@
+{
+  "topic": "Ai_ml",
+  "questions": [
+    {
+      "question": "What does AI stand for?",
+      "options": [
+        "Artificial Intelligence",
+        "Automated Internet",
+        "Advanced Information",
+        "Artificial Integration"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does ML stand for?",
+      "options": [
+        "Machine Learning",
+        "Massive Logic",
+        "Micro Language",
+        "Modern Learning"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is Artificial Intelligence?",
+      "options": [
+        "The simulation of human intelligence in machines.",
+        "A new type of computer hardware.",
+        "A method for building websites.",
+        "A social media algorithm."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is Machine Learning?",
+      "options": [
+        "A field of AI where systems learn from data and improve automatically.",
+        "A way to manually program machines to perform fixed tasks.",
+        "A database used for storage only.",
+        "A type of robotics hardware."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of the following is an example of AI in daily life?",
+      "options": [
+        "Voice assistants like Siri or Alexa",
+        "A regular calculator",
+        "A light bulb",
+        "A paintbrush"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these is used to train a machine learning model?",
+      "options": [
+        "Data",
+        "Electricity",
+        "HTML code",
+        "Antivirus software"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a dataset?",
+      "options": [
+        "A collection of data used to train or test a model.",
+        "A programming language for AI.",
+        "A type of algorithm.",
+        "A hardware device for robots."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is supervised learning?",
+      "options": [
+        "Training a model using labeled data (inputs with known outputs).",
+        "Training a model without any data.",
+        "Running an AI system manually.",
+        "A method of designing websites."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is unsupervised learning?",
+      "options": [
+        "Training a model with unlabeled data to find patterns or groups.",
+        "Training with correct answers already given.",
+        "Manual training by a human supervisor.",
+        "Testing a pre-trained model."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is reinforcement learning?",
+      "options": [
+        "An AI learns by trial and error using rewards or penalties.",
+        "A system that memorizes all data.",
+        "A learning method based only on text files.",
+        "A model that doesn’t use feedback."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a model in machine learning?",
+      "options": [
+        "A program trained to make predictions or decisions from data.",
+        "A 3D graphic object.",
+        "A mathematical error code.",
+        "A dataset backup file."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is training in ML?",
+      "options": [
+        "The process of teaching a model by providing data and adjusting parameters.",
+        "Creating a database for storing files.",
+        "Testing how fast an algorithm runs.",
+        "Manually writing all outputs."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is testing in ML?",
+      "options": [
+        "Evaluating how well a trained model performs on unseen data.",
+        "Collecting raw data for training.",
+        "Manually labeling data.",
+        "Designing the training interface."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is overfitting?",
+      "options": [
+        "When a model performs well on training data but poorly on new data.",
+        "When a model performs perfectly on all data.",
+        "When a model is too small to learn anything.",
+        "When a model has no parameters."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is underfitting?",
+      "options": [
+        "When a model is too simple and fails to learn important patterns.",
+        "When a model memorizes all training data.",
+        "When a model has too many layers.",
+        "When training data is too large."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a neural network?",
+      "options": [
+        "A system inspired by the human brain that processes information in layers.",
+        "A social network for AI developers.",
+        "A computer network for storing files.",
+        "A set of predefined rules for data entry."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is deep learning?",
+      "options": [
+        "A type of machine learning using neural networks with many layers.",
+        "A method of writing long code files.",
+        "A programming language.",
+        "A type of database indexing."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of these is a popular ML library in Python?",
+      "options": [
+        "TensorFlow",
+        "React",
+        "Bootstrap",
+        "NumPad"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which algorithm is commonly used for classification?",
+      "options": [
+        "Decision Tree",
+        "Merge Sort",
+        "Quick Sort",
+        "DFS (Depth First Search)"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which algorithm is commonly used for clustering?",
+      "options": [
+        "K-Means",
+        "Linear Regression",
+        "Binary Search",
+        "Gradient Descent"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is regression used for in ML?",
+      "options": [
+        "Predicting continuous numerical values.",
+        "Sorting categorical data.",
+        "Finding unrelated data points.",
+        "Encrypting data for security."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is classification in ML?",
+      "options": [
+        "Predicting categories or labels (e.g., spam or not spam).",
+        "Predicting continuous values.",
+        "Grouping data without labels.",
+        "Testing neural network speed."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a feature in a dataset?",
+      "options": [
+        "An individual measurable property or variable.",
+        "A section of code that trains a model.",
+        "A hidden error message.",
+        "A backup file."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a label in ML?",
+      "options": [
+        "The correct output or category for a given data point.",
+        "A code comment.",
+        "A column that stores timestamps.",
+        "A data file name."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is bias in machine learning?",
+      "options": [
+        "Error due to oversimplifying a model or data.",
+        "The model’s accuracy score.",
+        "An extra dataset for balancing.",
+        "A type of neural network layer."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is data preprocessing?",
+      "options": [
+        "Cleaning and preparing raw data before training.",
+        "Running the final model on production.",
+        "Testing APIs for data access.",
+        "Collecting user feedback after deployment."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is AI mainly used for?",
+      "options": [
+        "Automating tasks, recognizing patterns, and making intelligent decisions.",
+        "Editing videos.",
+        "Designing hardware components.",
+        "Drawing digital art manually."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of the following is an AI application?",
+      "options": [
+        "Self-driving cars",
+        "Washing machine",
+        "Calculator",
+        "Alarm clock"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is Natural Language Processing (NLP)?",
+      "options": [
+        "A branch of AI that helps computers understand human language.",
+        "A method to compress audio files.",
+        "A networking protocol.",
+        "A system for storing numbers."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is computer vision?",
+      "options": [
+        "A field of AI that enables computers to interpret and process visual information.",
+        "A hardware component in graphics cards.",
+        "A text-to-speech converter.",
+        "A website for image storage."
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

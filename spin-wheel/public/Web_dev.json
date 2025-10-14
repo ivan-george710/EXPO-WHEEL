@@ -1,0 +1,280 @@
+{
+  "topic": "Web dev",
+  "questions": [
+    {
+      "question": "What does CSS stand for?",
+      "options": [
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets",
+        "Creative Style System"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What does HTML stand for, and what is its main purpose?",
+      "options": [
+        "HyperText Markup Language; it structures web content using tags for elements like headings, paragraphs, links, and images.",
+        "Hyperlinks and Text Markup Language; it controls a page’s visual design and layout.",
+        "Home Tool Markup Language; it makes websites interactive and handles user input validation on the server.",
+        "High-Level Text Management Language; it manages databases for websites."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the difference between a website and a webpage?",
+      "options": [
+        "A webpage is a single document on the internet; a website is a collection of related webpages under one domain.",
+        "They are the same thing; the terms are interchangeable.",
+        "A website is a single document, while a webpage is a collection of sites.",
+        "A webpage is the physical server; a website is the file stored on it."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the difference between frontend and backend development?",
+      "options": [
+        "Frontend builds the user interface with HTML/CSS/JS; backend handles server logic and databases using languages like Python, Java, or Node.js.",
+        "Frontend runs on servers and manages databases; backend renders buttons and forms in the browser.",
+        "Frontend and backend are identical; both only style web pages.",
+        "Backend runs entirely in the browser; frontend runs only on the server."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Pick the correct way to include an external CSS file:",
+      "options": [
+        "<style src=\"styles.css\">",
+        "<link rel=\"stylesheet\" href=\"styles.css\">",
+        "<css href=\"styles.css\">",
+        "@css(\"styles.css\")"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is JavaScript used for in web development?",
+      "options": [
+        "Adding interactivity and dynamic behavior to web pages (e.g., responding to user actions, updating content without refresh, validating forms).",
+        "Structuring content on the web using semantic tags.",
+        "Designing the visual layout of pages with styles and typography.",
+        "Managing server hardware resources directly."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of the following is an example of a frontend technology?",
+      "options": ["React.js", "Node.js", "MySQL", "Python"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of the following is an example of a backend technology?",
+      "options": ["Angular", "CSS", "Node.js", "HTML"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What does \"responsive design\" mean?",
+      "options": [
+        "Designing websites so they work well on different screen sizes and devices.",
+        "Optimizing servers to respond faster to HTTP requests.",
+        "Building pages that respond only to server-side events.",
+        "Creating native mobile apps instead of web pages."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the primary purpose of an API?",
+      "options": [
+        "To allow different software applications to communicate and interact with each other.",
+        "To style web pages and control typography.",
+        "To store and back up user files on a web server.",
+        "To speed up the CPU so pages load faster."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does the <script> tag do in HTML?",
+      "options": [
+        "Links or embeds JavaScript into an HTML document.",
+        "Applies CSS styles to a webpage.",
+        "Defines metadata about the document.",
+        "Links to external web pages."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What’s the purpose of a rendering engine like Blink or WebKit?",
+      "options": [
+        "It converts HTML, CSS, and JavaScript into a visual webpage.",
+        "It compiles backend code for faster performance.",
+        "It translates database queries into API responses.",
+        "It encrypts JavaScript for security."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the difference between inline and block elements?",
+      "options": [
+        "Inline elements don’t start a new line; block elements do.",
+        "Block elements don’t start a new line; inline elements do.",
+        "Both types always start a new line.",
+        "Neither affects layout."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does DOM stand for in web development?",
+      "options": [
+        "Document Object Model; it represents the structure of a web page.",
+        "Digital Object Module; it handles JavaScript imports.",
+        "Document Order Management; it handles page caching.",
+        "Display Output Matrix; it handles UI rendering."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is an API used for in web apps?",
+      "options": [
+        "It allows different systems to exchange data.",
+        "It styles web pages using CSS.",
+        "It defines the navigation layout.",
+        "It stores cookies for user sessions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a framework in web development?",
+      "options": [
+        "A pre-built structure or set of tools that helps developers build applications faster.",
+        "A type of database for storing user data.",
+        "A text editor for writing code.",
+        "A testing library for debugging."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does a 404 status code mean?",
+      "options": [
+        "Page not found.",
+        "Server error.",
+        "Request successful.",
+        "Redirect to homepage."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does SEO improve?",
+      "options": [
+        "Website visibility and ranking on search engines.",
+        "Server speed and response time.",
+        "The visual design of a webpage.",
+        "Database query optimization."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does the alt attribute in an <img> tag do?",
+      "options": [
+        "Provides alternative text if the image cannot be displayed.",
+        "Sets image size.",
+        "Defines image border color.",
+        "Links the image to a CSS file."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does the <meta> tag define?",
+      "options": [
+        "Page information like description or viewport settings.",
+        "Links to JavaScript files.",
+        "Defines the layout grid.",
+        "Sets up user authentication."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does position: absolute; do?",
+      "options": [
+        "Positions an element freely within its parent container.",
+        "Keeps an element fixed relative to the viewport.",
+        "Centers an element horizontally only.",
+        "Creates a new flex container."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which CSS layout is one-dimensional?",
+      "options": ["Flexbox", "Grid", "Table", "Float"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which layout system is two-dimensional?",
+      "options": ["Grid", "Flexbox", "Float", "Inline-block"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What tool is used for version control?",
+      "options": ["Git", "NPM", "Webpack", "VS Code"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What command is used to clone a repository in Git?",
+      "options": [
+        "git clone",
+        "git pull",
+        "git init",
+        "git copy"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the difference between == and === in JavaScript?",
+      "options": [
+        "=== checks both value and type; == checks only value.",
+        "They are identical; both check value and type.",
+        "== checks both value and type; === checks only value.",
+        "== is used only for strings; === for numbers."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does asynchronous mean in JavaScript?",
+      "options": [
+        "Code runs without blocking other operations.",
+        "Code executes line by line synchronously.",
+        "JavaScript runs only on the server.",
+        "The script must finish before another starts."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is caching used for?",
+      "options": [
+        "To store temporary data and load pages faster.",
+        "To delete old files from a server.",
+        "To backup databases automatically.",
+        "To encrypt user passwords."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the purpose of JSON in web development?",
+      "options": [
+        "To transfer and store structured data between a client and a server.",
+        "To style pages dynamically.",
+        "To control browser rendering speed.",
+        "To compile backend code."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is npm used for?",
+      "options": [
+        "Installing and managing project dependencies and packages.",
+        "Hosting websites online.",
+        "Editing HTML files.",
+        "Creating CSS animations."
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "topic": "BlockChain",
+  "questions": [
+    {
+      "question": "What is a blockchain?",
+      "options": [
+        "A digital ledger that stores data in blocks linked together in a chain.",
+        "A social media platform for cryptocurrencies.",
+        "A centralized server for storing passwords.",
+        "A programming language used for Bitcoin."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a block in a blockchain?",
+      "options": [
+        "A unit that stores transaction data, a timestamp, and a reference to the previous block.",
+        "A code used to encrypt files on the network.",
+        "A wallet for storing digital coins.",
+        "A user account on the blockchain."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Who created Bitcoin, the first blockchain?",
+      "options": [
+        "Satoshi Nakamoto",
+        "Elon Musk",
+        "Vitalik Buterin",
+        "Mark Zuckerberg"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does 'decentralized' mean in blockchain?",
+      "options": [
+        "No single person or organization controls the network.",
+        "The government fully controls the data.",
+        "All information is stored on one central computer.",
+        "It runs only on company servers."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a transaction in blockchain?",
+      "options": [
+        "An exchange of information or value recorded permanently on the blockchain.",
+        "A printed document signed by two parties.",
+        "A message sent through email.",
+        "A request to delete old data from the chain."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is cryptocurrency?",
+      "options": [
+        "A digital or virtual currency that uses cryptography for security.",
+        "A type of credit card.",
+        "A form of physical coin.",
+        "A password used for banking."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is Bitcoin?",
+      "options": [
+        "The first cryptocurrency built using blockchain technology.",
+        "A type of stock traded on the exchange.",
+        "A central bank application.",
+        "A programming framework."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is Ethereum known for?",
+      "options": [
+        "Supporting smart contracts and decentralized applications (dApps).",
+        "Being the first cryptocurrency.",
+        "Managing cloud storage servers.",
+        "Mining only Bitcoin transactions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a smart contract?",
+      "options": [
+        "A self-executing contract with the terms written directly into code.",
+        "A paper contract signed digitally.",
+        "A government agreement for software projects.",
+        "An encrypted chat program."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is mining in blockchain?",
+      "options": [
+        "The process of validating transactions and adding new blocks to the blockchain.",
+        "Digging for cryptocurrency hardware.",
+        "Creating websites about Bitcoin.",
+        "Downloading blockchain wallets."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a node in a blockchain network?",
+      "options": [
+        "A computer that stores and validates blockchain data.",
+        "A block that is half-finished.",
+        "A password used to unlock the blockchain.",
+        "A database for user profiles."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a wallet in blockchain?",
+      "options": [
+        "A digital tool used to store and manage cryptocurrency keys.",
+        "A physical bag for holding coins.",
+        "A mobile app for online shopping.",
+        "A government ID card."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a private key?",
+      "options": [
+        "A secret code that allows access to your cryptocurrency.",
+        "A public blockchain address.",
+        "An encryption method for websites.",
+        "A password for social media accounts."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a public key?",
+      "options": [
+        "An address shared with others to receive cryptocurrency.",
+        "A password used to log in to websites.",
+        "A code used for decrypting movies.",
+        "A fingerprint stored on the blockchain."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Why is blockchain considered secure?",
+      "options": [
+        "Each block is linked with cryptographic hashes, making tampering extremely difficult.",
+        "It stores all data on one central server.",
+        "It allows anyone to edit previous blocks easily.",
+        "It hides transactions from all users."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does 'immutable' mean in blockchain?",
+      "options": [
+        "Data once added cannot be changed or deleted.",
+        "Data can be freely edited by admins.",
+        "Blocks are temporary and get replaced weekly.",
+        "The blockchain automatically resets monthly."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a hash in blockchain?",
+      "options": [
+        "A unique fixed-length string that represents data and ensures integrity.",
+        "A network error code.",
+        "A storage folder for images.",
+        "A database for storing passwords."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does 'peer-to-peer' (P2P) mean?",
+      "options": [
+        "Transactions happen directly between users without intermediaries.",
+        "Users must go through a bank server.",
+        "Data flows through government servers first.",
+        "It means all users share one account."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the role of miners in blockchain?",
+      "options": [
+        "They verify transactions and secure the network.",
+        "They send spam transactions to test security.",
+        "They build websites for crypto exchanges.",
+        "They store NFTs on USB drives."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a gas fee in Ethereum?",
+      "options": [
+        "A small fee paid to perform operations or transactions on the network.",
+        "The cost of electricity used for mining.",
+        "The charge for buying crypto on exchanges.",
+        "A subscription cost for blockchain users."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a dApp?",
+      "options": [
+        "A decentralized application that runs on blockchain technology.",
+        "A downloadable desktop application.",
+        "A browser extension for emails.",
+        "A type of blockchain mining tool."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does 'ledger' mean in blockchain?",
+      "options": [
+        "A record of all transactions stored on the network.",
+        "A physical notebook for miners.",
+        "A document signed by the government.",
+        "A list of user passwords."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the main benefit of blockchain?",
+      "options": [
+        "Transparency, security, and data integrity without central control.",
+        "Complete anonymity for users.",
+        "Instant deletion of all data.",
+        "Higher taxes for crypto users."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is Proof of Work (PoW)?",
+      "options": [
+        "A consensus mechanism requiring miners to solve puzzles to validate transactions.",
+        "A document proving ownership of coins.",
+        "A blockchain design used for testing.",
+        "A license for crypto traders."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is Proof of Stake (PoS)?",
+      "options": [
+        "A consensus mechanism where validators are chosen based on how many coins they hold.",
+        "A system that destroys coins to prevent inflation.",
+        "A way to mine Bitcoin faster.",
+        "A file format for storing private keys."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a blockchain explorer?",
+      "options": [
+        "A tool that lets users view transactions and blocks on a blockchain.",
+        "A browser for cryptocurrency news.",
+        "A program for mining new blocks.",
+        "A wallet for storing tokens."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What are NFTs?",
+      "options": [
+        "Non-Fungible Tokens — unique digital assets stored on a blockchain.",
+        "Network File Transfers — a way to send data online.",
+        "Node Function Trackers for miners.",
+        "National Finance Tokens created by banks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a token?",
+      "options": [
+        "A digital asset built on an existing blockchain.",
+        "A type of physical currency.",
+        "A hardware component in a miner.",
+        "A password reset key."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which of the following is a popular blockchain platform?",
+      "options": [
+        "Ethereum",
+        "Photoshop",
+        "MySQL",
+        "Android Studio"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

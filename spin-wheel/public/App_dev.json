@@ -1,0 +1,105 @@
+{
+  "topic": "App dev",
+  "questions": [
+    {
+      "question": "What is the main difference between native and cross-platform apps?",
+      "options": ["Native uses web views; cross-platform compiles to native code", "Native targets one OS directly; cross-platform aims to run on multiple OSes with one codebase", "Cross-platform apps can’t access device APIs", "Native apps are always slower"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which is a popular cross-platform app framework?",
+      "options": ["Django", "React Native", "Flask", "Laravel"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which language is commonly used for Android native development?",
+      "options": ["Swift", "Objective-C", "Kotlin", "C#"],
+      "answerIndex": 2
+    },
+    {
+      "question": "Which language is commonly used for iOS native development?",
+      "options": ["Swift", "Kotlin", "Java", "Ruby"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is an APK?",
+      "options": ["Android Package file for app installation", "A payment gateway file", "An Apple provisioning profile", "An IoT driver"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does UI stand for?",
+      "options": ["Unified Integration", "User Interface", "Universal Internet", "Utility Instance"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What does UX focus on?",
+      "options": ["Server scaling", "User experience—how an app feels and flows", "Unit testing", "Memory profiling"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which is a common state management approach in React Native?",
+      "options": ["Redux/Context", "CRON", "Bash scripts", "iptables"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is an API call from an app?",
+      "options": ["A device reboot", "A network request to a backend service", "A push notification", "A UI animation"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Why use local storage or SQLite on mobile?",
+      "options": ["To change OS settings", "To store user data and cache offline", "To render 3D graphics", "To deploy apps"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is push notification used for?",
+      "options": ["Triggering server backups", "Alerting users about updates or messages", "Compiling code", "Optimizing images"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which tool bundles and serves React Native JS code during development?",
+      "options": ["Metro bundler", "Nginx", "Apache", "Grunt"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is a build variant (Debug/Release)?",
+      "options": ["Different color themes", "Different compilation settings for development vs production", "Different device sizes", "Different programming languages"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Why do we sign mobile app builds?",
+      "options": ["To speed up animations", "To verify publisher identity and integrity", "To enable GPS", "To compress images"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is a common UI layout system in mobile development?",
+      "options": ["Flexbox", "Masonry", "GridFS", "RAID"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does responsive design mean for apps?",
+      "options": ["Only supports tablets", "UI adapts to different screens and densities", "No scrolling allowed", "Requires root/jailbreak"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which package manager is used in JS app projects?",
+      "options": ["pip", "npm/yarn/pnpm", "gem", "cargo"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is OTA (over-the-air) update in app dev?",
+      "options": ["Updating the OS only", "Pushing app code/assets updates without full store re-submission (within policy limits)", "A type of Bluetooth pairing", "An app for pilots"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Why do we use environment variables in apps?",
+      "options": ["To randomize colors", "To store secrets/config per environment (dev/stage/prod)", "To manage local images", "To translate strings"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What is Code Push (or similar services) used for?",
+      "options": ["Live reloading of UI colors", "Distributing small JS bundle updates to users without full app store review", "Resetting user data", "Changing device permissions"],
+      "answerIndex": 1
+    }
+  ]
+}

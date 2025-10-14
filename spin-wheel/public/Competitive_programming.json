@@ -1,0 +1,105 @@
+{
+  "topic": "Competitive programming",
+  "questions": [
+    {
+      "question": "What is the typical time complexity of binary search?",
+      "options": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which data structure supports FIFO order?",
+      "options": ["Stack", "Queue", "Set", "Tree"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which technique uses two indices moving through an array?",
+      "options": ["Divide and conquer", "Two-pointer method", "Dynamic programming", "Backtracking"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which structure gives O(1) average lookup by key?",
+      "options": ["Priority queue", "Hash map", "Segment tree", "Linked list"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What does DP (dynamic programming) rely on?",
+      "options": ["Randomness", "Overlapping subproblems and optimal substructure", "Greedy choice property only", "Parallel processing"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which algorithm finds shortest paths from one source with non-negative weights?",
+      "options": ["Kruskal", "Dijkstra", "Floyd-Warshall", "Prim"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which algorithm detects cycles and computes topological order in DAGs?",
+      "options": ["BFS in undirected graph", "DFS with stack / Kahn’s algorithm", "Union-Find only", "Bellman-Ford"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which data structure supports range sum queries and point updates efficiently?",
+      "options": ["Fenwick (Binary Indexed) Tree", "Trie", "Deque", "Queue"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which sorting algorithm is O(n log n) average and in-place?",
+      "options": ["Merge sort (in-place)", "Bubble sort", "Quick sort (average case)", "Counting sort"],
+      "answerIndex": 2
+    },
+    {
+      "question": "What is the typical complexity of merging two sorted arrays of sizes n and m?",
+      "options": ["O(n + m)", "O(n m)", "O(log(n+m))", "O(1)"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which approach tries the best local option at each step?",
+      "options": ["Greedy", "DP", "Backtracking", "Divide and conquer"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What is the space complexity of recursive DFS on a graph (worst case)?",
+      "options": ["O(1)", "O(V)", "O(E)", "O(V+E)"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which structure is ideal for LRU cache implementation?",
+      "options": ["Array only", "Hash map + doubly linked list", "Stack + queue", "Trie"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What does modulo arithmetic commonly help with?",
+      "options": ["Handling large numbers to avoid overflow", "Sorting strings lexicographically", "Allocating memory", "Rendering graphics"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which algorithm finds Minimum Spanning Tree efficiently?",
+      "options": ["Dijkstra", "Kruskal/Prim", "Bellman-Ford", "Topological sort"],
+      "answerIndex": 1
+    },
+    {
+      "question": "What’s the complexity of building a prefix sum array?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which technique explores all possibilities but prunes bad branches?",
+      "options": ["Backtracking", "Greedy", "Heaps", "Hashing"],
+      "answerIndex": 0
+    },
+    {
+      "question": "What does the sliding window technique optimize?",
+      "options": ["Subarray/substring problems over contiguous ranges", "Tree traversals", "Matrix exponentiation", "Graph coloring"],
+      "answerIndex": 0
+    },
+    {
+      "question": "Which structure supports min/max retrieval in O(log n)?",
+      "options": ["Hash set", "Binary heap (priority queue)", "Queue", "Stack"],
+      "answerIndex": 1
+    },
+    {
+      "question": "Which algorithm counts inversions in O(n log n)?",
+      "options": ["Modified merge sort", "Bubble sort", "Selection sort", "Insertion sort"],
+      "answerIndex": 0
+    }
+  ]
+}
