@@ -1,97 +1,107 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const COLORS = ["#5B8BF7", "#59C9A5", "#FFD166", "#EF767A", "#9B5DE5", "#43C7F4"];
-const topics = [
-  "BlockChain",
-  "Web dev",
-  "App dev",
-  "Ai/ml",
-  "Hardware",
-  "Competitive programming"
+const departments = [
+  { name: "Ai-ml", display: "AI/ML" },
+  { name: "BlockChain", display: "Blockchain" },
+  { name: "Competitive_programming", display: "CP" },
+  { name: "Hardware", display: "Hardware" },
+  { name: "App_dev", display: "App Dev" },
+  { name: "Web_dev", display: "Web Dev" },
 ];
 
-export default function Wheel({ onSelect, disabled }) 
- {
+export default function Wheel({ onSelect, disabled }) {
   const [spinning, setSpinning] = useState(false);
   const [rotation, setRotation] = useState(0);
-  const degPerSlice = 360 / topics.length;
 
-  const spin = () => {
-    if (spinning) return;
+  const segmentAngle = 360 / departments.length;
+
+const segmentColors = [
+    "linear-gradient(135deg, #2b0000 0%, #ff2a2a 100%)",
+    "linear-gradient(135deg, #330000 0%, #b71c1c 100%)",
+    "linear-gradient(135deg, #240000 0%, #ff4d4d 100%)",
+    "linear-gradient(135deg, #2d0000 0%, #e63946 100%)",
+    "linear-gradient(135deg, #400000 0%, #ff5a5f 100%)",
+    "linear-gradient(135deg, #1a0000 0%, #c92a2a 100%)",
+  ];
+
+  function spin() {
+    if (spinning || disabled) return;
+
+    const randomDegree = 360 * 5 + Math.floor(Math.random() * 360);
+    setRotation((prev) => prev + randomDegree);
     setSpinning(true);
-    const index = Math.floor(Math.random() * topics.length);
-    const spins = 4 + Math.random() * 3;
-    const stopAt = 360 - (index * degPerSlice + degPerSlice / 2);
-    const targetRotation = spins * 360 + stopAt;
 
-    setRotation(targetRotation);
+    const selectedIndex =
+      Math.floor(((randomDegree % 360) / 360) * departments.length) %
+      departments.length;
+
     setTimeout(() => {
       setSpinning(false);
-      onSelect(topics[index]);
-    }, 4200);
-  };
+      onSelect(
+        departments[(departments.length - selectedIndex) % departments.length]
+          .name
+      );
+    }, 5000);
+  }
 
   return (
     <div className="relative flex flex-col items-center">
-      {/* pointer */}
-      <div className="absolute -top-6 w-0 h-0 border-l-[15px] border-r-[15px] border-b-[30px] border-l-transparent border-r-transparent border-b-blue-400 z-20"></div>
-
-      {/* wheel */}
+      {/* Wheel */}
       <motion.div
         animate={{ rotate: rotation }}
-        transition={{ duration: 4, ease: [0.17, 0.67, 0.83, 0.67] }}
-        className="rounded-full border-[8px] border-slate-300 shadow-2xl overflow-hidden"
-        style={{ width: 360, height: 360, position: "relative" }}
+        transition={{ duration: 5, ease: "easeOut" }}
+        className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-full border-[6px] border-[#FF5A5F] shadow-[0_0_25px_rgba(255,60,60,0.4)] overflow-hidden"
       >
-        <svg viewBox="0 0 200 200" width="100%" height="100%">
-          {topics.map((topic, i) => {
-            const start = (i * 360) / topics.length - 90;
-            const end = ((i + 1) * 360) / topics.length - 90;
-            const largeArc = end - start > 180 ? 1 : 0;
+        {/* Segments */}
+        {departments.map((_, i) => (
+          <div
+            key={i}
+            className="absolute w-full h-full origin-center"
+            style={{
+              transform: `rotate(${i * segmentAngle}deg)`,
+            }}
+          >
+            <div
+              className="absolute w-1/2 h-full origin-right"
+              style={{
+                background: segmentColors[i % segmentColors.length],
+                clipPath: "polygon(100% 50%, 0 0, 0 100%)",
+              }}
+            />
+          </div>
+        ))}
 
-            const x1 = 100 + 100 * Math.cos((Math.PI * start) / 180);
-            const y1 = 100 + 100 * Math.sin((Math.PI * start) / 180);
-            const x2 = 100 + 100 * Math.cos((Math.PI * end) / 180);
-            const y2 = 100 + 100 * Math.sin((Math.PI * end) / 180);
-
-            const path = `M100,100 L${x1},${y1} A100,100 0 ${largeArc},1 ${x2},${y2} z`;
-
-            const textAngle = start + degPerSlice / 2;
-
-            return (
-              <g key={i}>
-                {/* colored slice */}
-                <path d={path} fill={COLORS[i % COLORS.length]} stroke="white" strokeWidth="0.5" />
-                {/* topic text */}
-                <text
-                  x="100"
-                  y="100"
-                  fill="white"
-                  fontSize="10"
-                  fontWeight="600"
-                  stroke="black"
-                  strokeWidth="0.3"
-                  textAnchor="middle"
-                  alignmentBaseline="middle"
-                  transform={`rotate(${textAngle} 100 100) translate(65 0) rotate(90)`}
-                >
-                  {topic}
-                </text>
-              </g>
-            );
-          })}
-        </svg>
+        {/* Labels */}
+        {departments.map((dept, i) => (
+          <div
+            key={`label-${i}`}
+            className="absolute text-white font-semibold text-[13px] sm:text-sm text-center select-none"
+            style={{
+              top: "50%",
+              left: "50%",
+              transform: `rotate(${i * segmentAngle + segmentAngle / 2}deg) translate(90px) rotate(-${i * segmentAngle + segmentAngle / 2}deg)`, // ⬅ pulled in from 100px → 90px
+              transformOrigin: "center",
+              textShadow: "0 0 8px rgba(255,255,255,0.3)",
+              width: "70px",
+            }}
+          >
+            {dept.display}
+          </div>
+        ))}
       </motion.div>
 
-      <button
-  onClick={spin}
-  disabled={spinning || disabled}
-  className="mt-6 px-6 py-2.5 rounded-xl bg-blue-500 hover:bg-blue-600 disabled:opacity-60 font-semibold text-white shadow-md transition-all"
->
-  {spinning ? "Spinning..." : "🎡 Spin"}
-</button>
+      {/* Pointer */}
+      <div className="absolute top-[-18px] w-0 h-0 border-l-[10px] border-r-[10px] border-b-[20px] border-transparent border-b-[#FF5A5F] drop-shadow-[0_0_6px_rgba(255,90,95,0.8)]"></div>
 
+      {/* Spin Button */}
+      <button
+        onClick={spin}
+        disabled={spinning || disabled}
+        className="mt-8 px-8 py-3 bg-transparent border-2 border-[#FF5A5F] text-white font-semibold rounded-xl hover:bg-[#FF5A5F]/20 hover:scale-105 transition-all duration-300 disabled:opacity-50"
+      >
+        {spinning ? "Spinning..." : "Spin"}
+      </button>
     </div>
   );
 }
