@@ -47,11 +47,12 @@ export default function Wheel({ onSelect, disabled }) {
 
   return (
     <div className="relative flex flex-col items-center mt-12">
-      {/* 🔻 Pointer (closer to wheel) */}
-      <div className="absolute -top-[8px] z-20 flex flex-col items-center">
-        <div className="w-0 h-0 border-l-[12px] border-r-[12px] border-b-[20px] border-transparent border-b-[#FF5A5F] drop-shadow-[0_0_8px_rgba(255,90,95,0.9)]"></div>
-        <div className="w-3 h-3 bg-[#FF5A5F] rounded-full border border-white shadow-[0_0_6px_rgba(255,90,95,0.8)] mt-[-2px]"></div>
-      </div>
+      {/* 🔻 Pointer — fixed alignment */}
+<div className="absolute -top-[32px] z-30 flex flex-col items-center">
+  <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[26px] border-transparent border-b-[#FF5A5F] drop-shadow-[0_0_8px_rgba(255,90,95,0.9)]"></div>
+  <div className="w-4 h-4 bg-[#FF5A5F] rounded-full border-2 border-white shadow-[0_0_6px_rgba(255,90,95,0.8)] mt-[-2px]"></div>
+</div>
+
 
       <div className="flex flex-row items-center justify-center gap-12 sm:gap-20">
         {/* 🌈 Left department list */}
