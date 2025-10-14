@@ -7,13 +7,16 @@ export default function App() {
   const [question, setQuestion] = useState(null);
   const [userAnswer, setUserAnswer] = useState(null);
   const [isCorrect, setIsCorrect] = useState(null);
+  const [canSpin, setCanSpin] = useState(true);
 
   async function handleSelect(topicName) {
     setTopic(topicName);
     setUserAnswer(null);
     setIsCorrect(null);
+    setCanSpin(false);
 
     const file = topicName.replace(/\s+/g, "_").replace(/\//g, "-") + ".json";
+
     try {
       const res = await fetch(`/${file}`);
       const data = await res.json();
@@ -26,30 +29,32 @@ export default function App() {
   }
 
   function handleAnswer(selectedIndex) {
-    if (userAnswer !== null) return; // prevent multiple clicks
+    if (userAnswer !== null) return;
     setUserAnswer(selectedIndex);
     if (selectedIndex === question.answerIndex) setIsCorrect(true);
     else setIsCorrect(false);
-  }
-
-  function handleNextQuestion() {
-    setUserAnswer(null);
-    setIsCorrect(null);
-    handleSelect(topic); // fetch another random question
+    setCanSpin(true); // enable spinning again after answering
   }
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold text-blue-400 mb-6">🎯 Spin the Wheel</h1>
-      <Wheel onSelect={handleSelect} />
+
+      <Wheel onSelect={handleSelect} disabled={!canSpin} />
+
       <ResultCard
         topic={topic}
         question={question}
         userAnswer={userAnswer}
         isCorrect={isCorrect}
         onAnswer={handleAnswer}
-        onNext={handleNextQuestion}
       />
+
+      {userAnswer !== null && (
+        <p className="mt-6 text-sm text-slate-400 italic">
+          🌀 Press “Spin” to play another round!
+        </p>
+      )}
     </div>
   );
 }

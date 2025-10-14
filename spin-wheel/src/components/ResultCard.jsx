@@ -3,8 +3,7 @@ export default function ResultCard({
   question,
   userAnswer,
   isCorrect,
-  onAnswer,
-  onNext
+  onAnswer
 }) {
   if (!topic || !question) return null;
 
@@ -13,6 +12,7 @@ export default function ResultCard({
       <h2 className="text-xl font-semibold text-blue-300 mb-3">
         Topic: {topic}
       </h2>
+
       <p className="text-lg font-medium mb-4 text-slate-100">
         {question.question}
       </p>
@@ -47,18 +47,12 @@ export default function ResultCard({
           ) : (
             <p className="text-red-400 font-semibold text-lg">
               ❌ Wrong! Correct answer:{" "}
-              <span className="text-green-400">
-                {String.fromCharCode(65 + question.answerIndex)}.
+              <span className="text-green-400 font-bold">
+                {String.fromCharCode(65 + question.answerIndex)}.{" "}
+                {question.options[question.answerIndex]}
               </span>
             </p>
           )}
-
-          <button
-            onClick={onNext}
-            className="mt-4 px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 font-medium text-white shadow-md"
-          >
-            Next Question
-          </button>
         </div>
       )}
     </div>
